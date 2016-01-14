@@ -1,8 +1,8 @@
 		.whitetext {
-			color: rbg(225,0,0);
+			color: rgb(225,0,0);
 		}
 		body {
-			background-color: rbg(128,128,128);
+			background-color: rgb(128,128,128);
 		}
 		.big-blue {
 			color: blue;
@@ -12,4 +12,7 @@
 		}
 		.big-yellow {
 			color: yellow;
+		}
+		img {
+			width: 50px;
 		}
