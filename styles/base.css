@@ -1,0 +1,20 @@
+body {
+    font-family: 'Gaegu', cursive;
+    background-color: #BDBDBD;
+    color: #F8F8F8;
+    line-height: 1.2; 
+    text-align: center;
+}
+
+.first-line {
+    font-size: 60px
+}
+
+.second-line {
+    font-size: 30px
+}
+.center-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
