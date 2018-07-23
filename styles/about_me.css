@@ -1,4 +1,4 @@
-head{
+.title{
     text-align: center;
     font-size: 30px;
 }
@@ -14,7 +14,6 @@ body {
 }
 
 
-.research_pic {
-    border-radius: 12%;
-    align-items: right;
+.image {
+    vertical-align: right;
 }
