@@ -1,0 +1,12 @@
+body{
+    font-family: 'Gaegu', cursive;
+    line-height: 1.2; 
+    text-align: left;
+
+}
+
+.card{
+    float: right; 
+    color: #F8F8F8;
+    background-color: #BDBDBD;
+}
