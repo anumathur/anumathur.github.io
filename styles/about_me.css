@@ -1,8 +1,20 @@
-body{
+head{
+    text-align: center;
+    font-size: 30px;
+}
+
+body {
+    font-size: 20px;
     background-color: #BDBDBD;
     color: #F8F8F8;
     text-align: left;
     font-family: 'Gaegu', cursive;
     line-height: 1.2; 
     font-size: 20px
+}
+
+
+.research_pic {
+    border-radius: 12%;
+    align-items: right;
 }
