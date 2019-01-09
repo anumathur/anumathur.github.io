@@ -1,8 +1,37 @@
 body{
-    background-color: #BDBDBD;
+    background-image: linear-gradient(to right,#848484 ,#BDBDBD); 
     color: #F8F8F8;
     text-align: left;
     font-family: 'Gaegu', cursive;
     line-height: 1.2; 
     font-size: 20px;
 }
+
+.card{
+    margin: 0 auto;
+    float: right; 
+    color: #F8F8F8;
+    background-color: #BDBDBD;   
+
+}
+
+.card-header{
+    background-color: #979797;
+}
+
+.nav-item{
+    background-color: #F8F8F8;
+}
+.card-title{
+    text-align: center;
+    font-size: 1.4em;
+}
+.card-text{
+text-align: justify;
+font-size:1.2em;
+}
+
+.btn-primary{
+    align-content: center;
+}
+
