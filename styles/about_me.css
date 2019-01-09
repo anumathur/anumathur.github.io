@@ -1,12 +1,32 @@
 body {
     font-size: 20px;
-    background-color: #BDBDBD;
-    color: #F8F8F8;
+    background-color:#dedede;
+    color: grey;
     font-family: 'Gaegu', cursive;
     line-height: 1.2; 
     font-size: 20px
     
 }
+
+.image_table{
+	width: 450px;
+	margin: 0 auto; 
+}
+
+body{
+    font-family: 'Gaegu', cursive;
+    line-height: 1.2; 
+	text-align: left;
+	width: 1200px;
+	margin: 0 auto; 
+
+}
+.card{
+    float: right; 
+    color: #F8F8F8;
+    background-color: #BDBDBD;
+}
+
 
 a:link{
 	color: grey;
