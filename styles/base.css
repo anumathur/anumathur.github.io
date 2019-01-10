@@ -1,5 +1,5 @@
 body {
-    font-family: 'Gaegu', cursive;
+    font-family: 'Raleway', cursive;
     color: #F8F8F8;
     background-image: linear-gradient(to right,#848484 ,#BDBDBD); 
     line-height: 1.2; 
@@ -7,7 +7,7 @@ body {
 }
 
 .first-line {
-    font-size: 60px;
+    font-size: 45px;
 }
 
 .second-line {
@@ -23,6 +23,7 @@ body {
 .flask{
     margin-left: center;
     margin-right: center;
+    padding-bottom: 10px;
 }
 
 a:link{
