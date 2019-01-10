@@ -2,7 +2,6 @@ body {
     font-size: 20px;
     background-color:#dedede;
     color: grey;
-    
 }
 
 
@@ -10,10 +9,6 @@ body {
 	width: 450px;
 	margin: 0 auto; 
 	text-align: left;
-}
-
-.caption{
-	font-size:0.5em;
 }
 
 body{
