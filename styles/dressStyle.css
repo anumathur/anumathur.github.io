@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(213, 182, 151);
+    color: purple;
+    font-family: "Courier New";
+
+
+.image-container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 90vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    }
+}  
+
+.foot {
+   
+    text-align: center;
+    font-size: 12px;
+    height: 1px;
+    position: relative;
+}
+
+.llama {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px; /* Add space from the corner */
+
+}
