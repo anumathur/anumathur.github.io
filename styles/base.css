@@ -1,31 +1,39 @@
 body {
-    font-family: 'Raleway';
-    color: #F8F8F8;
-    background-image: linear-gradient(to right,#848484 ,#BDBDBD); 
-    line-height: 1.2; 
-    text-align: center;
+    background-color: rgb(213, 182, 151);
+   
+
+p {
+    color: purple;
+    font-family: "Courier New";
+    margin-bottom: 0px;
+    margin-top: 10px;
 }
 
-.first-line {
-    font-size: 45px;
-}
-
-.second-line {
-    font-size: 30px;
-}
-.center-parent{
+.image-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    vertical-align: middle;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 90vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
 }
 
-.flask{
-    margin-left: center;
-    margin-right: center;
-    padding-bottom: 10px;
+
 }
 
-a:link{
-    color: rgb(65, 105, 225) 
+
+.foot {
+   
+    text-align: center;
+    font-size: 12px;
+    height: 1px;
+    position: relative;
+}
+
+.llama {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px; /* Add space from the corner */
+
 }
