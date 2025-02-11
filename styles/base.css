@@ -1,37 +1,52 @@
 body {
     background-color: rgb(213, 182, 151);
+    color: purple;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure body takes full height */
+    margin: 0;
    
 
 p {
-    color: purple;
     font-family: "Courier New";
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     margin-top: 10px;
 }
 
 .image-container {
+
+    flex: 1; /* Pushes the footer down */
     display: flex;
-    flex-direction: column; /* Stack elements vertically */
-    justify-content: center; /* Center vertically */
-    align-items: center; /* Center horizontally */
-    height: 90vh; /* Full viewport height */
-    margin: 0; /* Remove default margin */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+}
+
+.icons {
+    display: flex;
+    gap: 20px; /* Add spacing between icons */
+    justify-content: center; /* Center them if needed */
+    align-items: center;
+}
+
+.icons figure {
+    text-align: center; /* Center the text under each image */
+    margin: 0;
 }
 
 .foot {
-   
     text-align: center;
     font-size: 12px;
-    height: 1px;
-    position: relative;
+    padding: 10px;
+    margin-top: auto; /* Pushes footer to the bottom */
 }
 
 .llama {
     position: absolute;
-    bottom: 0;
-    right: 0;
-    padding: 10px; /* Add space from the corner */
+    bottom: 10px;
+    right: 10px;
 
 }
